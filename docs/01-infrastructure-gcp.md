@@ -116,8 +116,8 @@ All the VMs in this lab will be provisioned using Ubuntu 16.04 mainly because it
 gcloud compute instances create controller0 \
  --boot-disk-size 200GB \
  --can-ip-forward \
- --image ubuntu-1604-xenial-v20170307 \
- --image-project ubuntu-os-cloud \
+ --image centos-7-v20170426 \
+ --image-project centos-cloud \
  --machine-type n1-standard-1 \
  --private-network-ip 10.240.0.10 \
  --subnet kubernetes
@@ -127,8 +127,8 @@ gcloud compute instances create controller0 \
 gcloud compute instances create controller1 \
  --boot-disk-size 200GB \
  --can-ip-forward \
- --image ubuntu-1604-xenial-v20170307 \
- --image-project ubuntu-os-cloud \
+ --image centos-7-v20170426 \
+ --image-project centos-cloud \
  --machine-type n1-standard-1 \
  --private-network-ip 10.240.0.11 \
  --subnet kubernetes
@@ -138,8 +138,8 @@ gcloud compute instances create controller1 \
 gcloud compute instances create controller2 \
  --boot-disk-size 200GB \
  --can-ip-forward \
- --image ubuntu-1604-xenial-v20170307 \
- --image-project ubuntu-os-cloud \
+ --image centos-7-v20170426 \
+ --image-project centos-cloud \
  --machine-type n1-standard-1 \
  --private-network-ip 10.240.0.12 \
  --subnet kubernetes
@@ -151,8 +151,8 @@ gcloud compute instances create controller2 \
 gcloud compute instances create worker0 \
  --boot-disk-size 200GB \
  --can-ip-forward \
- --image ubuntu-1604-xenial-v20170307 \
- --image-project ubuntu-os-cloud \
+ --image centos-7-v20170426 \
+ --image-project centos-cloud \
  --machine-type n1-standard-1 \
  --private-network-ip 10.240.0.20 \
  --subnet kubernetes
@@ -162,8 +162,8 @@ gcloud compute instances create worker0 \
 gcloud compute instances create worker1 \
  --boot-disk-size 200GB \
  --can-ip-forward \
- --image ubuntu-1604-xenial-v20170307 \
- --image-project ubuntu-os-cloud \
+ --image centos-7-v20170426 \
+ --image-project centos-cloud \
  --machine-type n1-standard-1 \
  --private-network-ip 10.240.0.21 \
  --subnet kubernetes
@@ -173,8 +173,8 @@ gcloud compute instances create worker1 \
 gcloud compute instances create worker2 \
  --boot-disk-size 200GB \
  --can-ip-forward \
- --image ubuntu-1604-xenial-v20170307 \
- --image-project ubuntu-os-cloud \
+ --image centos-7-v20170426 \
+ --image-project centos-cloud \
  --machine-type n1-standard-1 \
  --private-network-ip 10.240.0.22 \
  --subnet kubernetes
